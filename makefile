@@ -23,8 +23,6 @@ local-miui-modified-apps :=
 # Default configrations are HDPI for ics branch and XHDPI for jellybean branch
 local-density := XHDPI
 
-include phoneapps.mk
-
 local-target-bit := 32
 
 # To include the local targets before and after zip the final ZIP file, 
